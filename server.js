@@ -30,7 +30,9 @@ const io = new Server(server, {
   cors: {
     origin: "*",
     methods: ["GET", "POST"]
-  }
+  },
+  path: "/socket",
+  transports: ["websocket"],
 });
 
 const roomUsersMap = new Map();
