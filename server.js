@@ -31,7 +31,7 @@ const io = new Server(server, {
     origin: "*",
     methods: ["GET", "POST"]
   },
-  path: "/socket",
+  path: "/socket.io",
   transports: ["websocket"],
 });
 
