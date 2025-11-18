@@ -3,7 +3,7 @@ import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
 import dotenv from "dotenv";
-import Message from "./models/messageModel.js";
+import Message from "./messageModel.js";
 
 dotenv.config();
 mongoose
