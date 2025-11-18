@@ -2,6 +2,7 @@ import express from "express";
 import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
+import mongoose from "mongoose";
 import dotenv from "dotenv";
 import Message from "./messageModel.js";
 
