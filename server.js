@@ -3,7 +3,6 @@ import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
 import dotenv from "dotenv";
-import databaseConnection from "./lib/dbConfig.js";
 import Message from "./models/messageModel.js";
 
 dotenv.config();
