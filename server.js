@@ -28,7 +28,7 @@ const io = new Server(server, {
   pingTimeout: 60000,
   pingInterval: 25000,
   cors: {
-    origin: ["https://trust-consult.vercel.app",http://localhost:3000"],
+    origin: ["https://trust-consult.vercel.app","http://localhost:3000"],
     methods: ["GET", "POST"],
   },
 });
